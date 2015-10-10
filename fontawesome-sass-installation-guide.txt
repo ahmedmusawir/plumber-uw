@@ -1,0 +1,15 @@
+b. Compass without Rails
+
+Install the gem
+
+gem install font-awesome-sass
+If you have an existing Compass project:
+
+# config.rb:
+require 'font-awesome-sass'
+Import the FontAwesome styles
+
+@import "font-awesome-compass";
+@import "font-awesome";
+
+* Just make sure the fontawesome fonts are in the fonts dir under the root. Use bower install to get them.

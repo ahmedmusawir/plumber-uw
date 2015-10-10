@@ -1,0 +1,39 @@
+// The Bournon
+@import "bourbon/bourbon";
+
+// MY CUSTOM CSS
+body {
+	color: red;
+	background-color: hotpink;
+
+}
+
+.panel {
+	@include transition(all 2.0s ease-in-out);
+	&:hover {
+		@include transition-property(transform);
+		@include transition-duration(1.0s);
+		@include transition-timing-function(ease-in);
+		@include transition-delay(0.5s);
+	}
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	border: 2px solid yellow;
+
+	&:hover {
+	  // Animation shorthand works the same as the CSS3 animation shorthand
+	  @include animation(scale 1.0s ease-in, slide 2.0s ease);
+
+	  // The above outputs the same CSS as using independent, granular mixins.
+	  @include animation-name(scale, slide);
+	  @include animation-duration(2s);
+	  @include animation-timing-function(ease);
+	  @include animation-iteration-count(infinite);
+
+	  @include linear-gradient(#1e5799, #2989d8);
+
+	}
+}
