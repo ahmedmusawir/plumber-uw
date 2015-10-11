@@ -1,39 +1,257 @@
+//Google fonts 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,800,900);
+//Font Awesome
+@import "font-awesome-compass";
+@import "font-awesome";
+
 // The Bournon
 @import "bourbon/bourbon";
 
 // MY CUSTOM CSS
+html {
+	background-color: white;
+}
 body {
-	color: red;
-	background-color: hotpink;
+	color: black;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
 
 }
 
-.panel {
-	@include transition(all 2.0s ease-in-out);
-	&:hover {
-		@include transition-property(transform);
-		@include transition-duration(1.0s);
-		@include transition-timing-function(ease-in);
-		@include transition-delay(0.5s);
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+/**
+ *
+ * Site Header
+ *
+ */
+
+.top-header {
+
+	background-color: darken( $primary-color, 33%);
+
+	.site-contact {
+		padding-top: 1rem;
+		p {
+			color: red;
+			margin-bottom: -0.1rem;
+		}
+	}
+
+}
+
+/**
+ *
+ * Frontpage Header
+ *
+ */
+
+.front-page-header {
+
+	text-align: center;
+	position: relative;
+
+	.the-orbit {
+		background-color: rgba( darken( $primary-color, 10% ), .8);
+		h1, h4 {
+			position: fixed;
+			color: yellow;
+			left: 40%;
+			right: 50%;
+			top: 50%;
+		}
+
+	}		
+}
+
+/**
+ *
+ * Frontpage Services
+ *
+ */
+.front-services {
+	text-align: center;
+
+	.service-icon {
+		background-color: $primary-color;
+		height: 100%;
+		width: 100%;
+		padding: 2rem;
+		padding-top: 2.7rem;
+		border-radius: 50%;
+
+		i.fa {
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+
+		a {
+			color: black;
+			@include transition(all 1.0s ease-in-out);
+
+
+			&:hover {
+				color: white;
+				// @include transform(translateY(50px));
+				// @include transform( scale(1.2) );
+				// @include transform-origin(center top);
+				// @include transform-style(preserve-3d);
+			}
+		}
 	}
 }
 
-.box {
-	width: 100px;
-	height: 100px;
-	border: 2px solid yellow;
+/**
+ *
+ * Frontpage Top Callout
+ *
+ */
+.front-top-callout {
+	background-color: darken( $primary-color, 25% );
+	text-align: center;
+	padding-top: 3.5rem;
+	padding-bottom: 2rem;
 
-	&:hover {
-	  // Animation shorthand works the same as the CSS3 animation shorthand
-	  @include animation(scale 1.0s ease-in, slide 2.0s ease);
+	h3, h4 {
+		color: lighten( $primary-color, 15% );
+	}
 
-	  // The above outputs the same CSS as using independent, granular mixins.
-	  @include animation-name(scale, slide);
-	  @include animation-duration(2s);
-	  @include animation-timing-function(ease);
-	  @include animation-iteration-count(infinite);
+	h3 {
+		font-size: 2rem;
+	}
+	h4 {
+		font-size: 1rem;
+	}
 
-	  @include linear-gradient(#1e5799, #2989d8);
-
+	a {
+		background-color: transparent;
+		border: 2px solid $primary-color;
+		margin-top: 1rem;
 	}
 }
+
+/**
+ *
+ * Frontpage Professional Plumber
+ *
+ */
+.front-pro-plumber {
+	text-align: center;
+	
+	position: relative;
+
+	background: url(img/frontpage-pro-plumber-bg-img.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+
+	 .cover {
+	 	
+	 	background-color: rgba( darken( $primary-color, 10% ), .8);
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+	  
+	 }
+
+	 .row {
+	 	color: white;
+
+	 	h2, h3 {
+	 		color: white;
+	 	}
+	 }
+
+	 a {
+		background-color: transparent;
+		border: 4px solid $primary-color;
+		margin-top: 1rem;
+	}
+}
+
+/**
+ *
+ * Frontpage Testimonials
+ *
+ */
+.front-testimonials {
+	// background-color: $tuatara;
+	background-color: lighten( $alert-color, 15%);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-align: center;
+
+	img {
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+
+	h5 {
+		padding-bottom: 2rem;
+		position: relative;
+
+		&:after {
+		  content: '';
+	      position:absolute;
+	      bottom: 0;
+	      left: 40%;
+	      right: 40%;
+	      height: 2px;
+	      background:red;
+	      display:block;
+	      // margin-bottom: 2rem;
+		}
+	
+	}
+	p {
+		padding-top: 2rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

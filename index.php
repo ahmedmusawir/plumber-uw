@@ -1,165 +1,211 @@
  <?php include "header.php" ?>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-
-    <section class="box">
-      BOURBON TESTING SUCCESS!
-    </section>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
 
 
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
+<header id="front-page-header" class="front-page-header">
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+  <ul class="the-orbit" data-orbit data-options="animation:fade;
+                  timer_speed: 1000;
+                  slide_number: false;
+                  pause_on_hover:true;
+                  animation_speed:1000;
+                  navigation_arrows:true;
+                  bullets:true;">
+    <li>
+      <!-- <h1>Domestic</h1> -->
+      <!-- <h4>For Homeowners with homes of any size ... We do it all. Wheather you need a new hot water system
+      installed or serviced, or have a leak or a blocked drain, our team can help.
+      </h4> -->
+      <!-- <img src="http://lorempixel.com/1920/450/abstract/1"  alt="slide 1" /> -->
+      <img src="img/frontpage-top-slider-img-2.jpg"  alt="slide 1" />
+      <!-- <div class="orbit-caption">
+        Caption One.
+      </div> -->
+    </li>
+    <li class="active">
+      <!-- <h1>Commercial</h1> -->
+      <!-- <img src="http://lorempixel.com/1920/450/abstract/2"  alt="slide 2" /> -->
+      <img src="img/frontpage-top-slider-img-1.jpg"  alt="slide 2" />
+      <!-- <div class="orbit-caption">
+        Caption Two.
+      </div> -->
+    </li>
+    <li>
+      <!-- <h1>Reliable</h1> -->
+      <!-- <img src="http://lorempixel.com/1920/450/abstract/3" alt="slide 3" /> -->
+      <img src="img/frontpage-top-slider-img-3.jpg" alt="slide 3" />
+      <!-- <div class="orbit-caption">
+        Caption Three.
+      </div> -->
+    </li>
+  </ul>
+  
+</header><!-- /header -->
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+<section class="front-services row">
+  <div class="front-service-block medium-4 large-4 columns">
+    <p class="service-icon-holder">
+      <span class="service-icon">
+        <a href="#" title=""><i class="fa fa-camera-retro fa-2x"></i></a>
+      </span>
+    </p>
+    <h4>PLUMBING SERVICES</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. 
+    </p>
+    <p>
+      <a href="#" class="button" title=""> Learn More</a>
+    </p>
+  </div>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
-    </div>
+  <div class="front-service-block medium-4 large-4 columns">
+    <p class="service-icon-holder">
+      <span class="service-icon">
+        <a href="#" title=""><i class="fa fa-camera-retro fa-2x"></i></a>
+      </span>
+    </p>
+    <h4>PLUMBING SERVICES</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. 
+    </p>
+    <p>
+      <a href="#" class="button" title=""> Learn More</a>
+    </p>
+  </div>
 
+  <div class="front-service-block medium-4 large-4 columns">
+    <p class="service-icon-holder">
+      <span class="service-icon">
+        <a href="#" title=""><i class="fa fa-camera-retro fa-2x"></i></a>
+      </span>
+    </p>
+    <h4>PLUMBING SERVICES</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. 
+    </p>
+    <p>
+      <a href="#" class="button" title=""> Learn More</a>
+    </p>
+  </div>
+  
+</section>
+
+<section class="front-top-callout">
+  <div class="row">
+    <h3>WE ARE IN YOUR AREA</h3>
+    <h4>CALL NOW & TALK DIRECTLY TO A QUALIFIED PLUMBER OR ...</h4>
+    <a href="#" title="" class="button"> SEND YOU ENQUIRY NOW</a>
+  </div>
+</section>
+
+
+
+<section class="front-pro-plumber">
+  <div class="cover">
+    <article class="row">
+      <h2>PROFESSIONAL PLUMBERS</h2>
+      <h3>IN ADELAIDE</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p><a href="#" class="button" title="">Learn More</a></p>
+    </article>
+  </div>
+</section>
+
+<section class="front-testimonials">
+  
+ <div class="row">
+    <ul class="the-orbit" data-orbit data-options="animation:slide;
+                  timer_speed: 3000;
+                  slide_number: false;
+                  pause_on_hover:true;
+                  animation_speed:1000;
+                  navigation_arrows:true;
+                  bullets:true;">
+    <li>
+      <p><img class="th" src="http://lorempixel.com/100/100/people/9" alt=""></p>
+      
+      <h3>Jini Dow</h3>
+      <h5>Teacher</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
+    </li>
+    <li class="active">
+      <img class="th" src="http://lorempixel.com/100/100/people/1" alt="">
+      <h3>Jane Dow</h3>
+      <h5>Home Maker</h5>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </li>
+    <li>
+      <img class="th" src="http://lorempixel.com/100/100/people/3" alt="">
+      <h3>Bin Laden</h3>
+      <h5>Small Business Owner</h5>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </li>
+  </ul>
+ </div>
+
+</section>
+
+
+
+ 
  <?php include "footer.php" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
