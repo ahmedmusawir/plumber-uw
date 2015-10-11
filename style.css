@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 /* line 364, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.2/";
@@ -12698,19 +12699,19 @@ th.hide-for-touch {
   content: "";
 }
 
-/* line 11, scss/_custom.scss */
+/* line 13, scss/_custom.scss */
 html {
   background-color: white;
 }
 
-/* line 14, scss/_custom.scss */
+/* line 16, scss/_custom.scss */
 body {
   color: black;
   background-color: white;
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 21, scss/_custom.scss */
+/* line 23, scss/_custom.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
 }
@@ -12720,15 +12721,15 @@ h1, h2, h3, h4, h5 {
  * Site Header
  *
  */
-/* line 32, scss/_custom.scss */
+/* line 34, scss/_custom.scss */
 .top-header {
-  background-color: #113f27;
+  background-color: #EFEFEF;
 }
-/* line 36, scss/_custom.scss */
+/* line 39, scss/_custom.scss */
 .top-header .site-contact {
   padding-top: 1rem;
 }
-/* line 38, scss/_custom.scss */
+/* line 41, scss/_custom.scss */
 .top-header .site-contact p {
   color: red;
   margin-bottom: -0.1rem;
@@ -12739,16 +12740,16 @@ h1, h2, h3, h4, h5 {
  * Frontpage Header
  *
  */
-/* line 52, scss/_custom.scss */
+/* line 55, scss/_custom.scss */
 .front-page-header {
   text-align: center;
   position: relative;
 }
-/* line 57, scss/_custom.scss */
+/* line 60, scss/_custom.scss */
 .front-page-header .the-orbit {
   background-color: rgba(42, 155, 96, 0.8);
 }
-/* line 59, scss/_custom.scss */
+/* line 62, scss/_custom.scss */
 .front-page-header .the-orbit h1, .front-page-header .the-orbit h4 {
   position: fixed;
   color: yellow;
@@ -12762,11 +12763,11 @@ h1, h2, h3, h4, h5 {
  * Frontpage Services
  *
  */
-/* line 75, scss/_custom.scss */
+/* line 78, scss/_custom.scss */
 .front-services {
   text-align: center;
 }
-/* line 78, scss/_custom.scss */
+/* line 81, scss/_custom.scss */
 .front-services .service-icon {
   background-color: #35c379;
   height: 100%;
@@ -12775,19 +12776,19 @@ h1, h2, h3, h4, h5 {
   padding-top: 2.7rem;
   border-radius: 50%;
 }
-/* line 86, scss/_custom.scss */
+/* line 89, scss/_custom.scss */
 .front-services .service-icon i.fa {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-/* line 91, scss/_custom.scss */
+/* line 94, scss/_custom.scss */
 .front-services .service-icon a {
   color: black;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 96, scss/_custom.scss */
+/* line 99, scss/_custom.scss */
 .front-services .service-icon a:hover {
   color: white;
 }
@@ -12797,26 +12798,26 @@ h1, h2, h3, h4, h5 {
  * Frontpage Top Callout
  *
  */
-/* line 112, scss/_custom.scss */
+/* line 115, scss/_custom.scss */
 .front-top-callout {
   background-color: #1a5f3b;
   text-align: center;
   padding-top: 3.5rem;
   padding-bottom: 2rem;
 }
-/* line 118, scss/_custom.scss */
+/* line 121, scss/_custom.scss */
 .front-top-callout h3, .front-top-callout h4 {
   color: #6dd7a0;
 }
-/* line 122, scss/_custom.scss */
+/* line 125, scss/_custom.scss */
 .front-top-callout h3 {
   font-size: 2rem;
 }
-/* line 125, scss/_custom.scss */
+/* line 128, scss/_custom.scss */
 .front-top-callout h4 {
   font-size: 1rem;
 }
-/* line 129, scss/_custom.scss */
+/* line 132, scss/_custom.scss */
 .front-top-callout a {
   background-color: transparent;
   border: 2px solid #35c379;
@@ -12828,7 +12829,7 @@ h1, h2, h3, h4, h5 {
  * Frontpage Professional Plumber
  *
  */
-/* line 141, scss/_custom.scss */
+/* line 144, scss/_custom.scss */
 .front-pro-plumber {
   text-align: center;
   position: relative;
@@ -12838,21 +12839,21 @@ h1, h2, h3, h4, h5 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 153, scss/_custom.scss */
+/* line 156, scss/_custom.scss */
 .front-pro-plumber .cover {
   background-color: rgba(42, 155, 96, 0.8);
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
-/* line 161, scss/_custom.scss */
+/* line 164, scss/_custom.scss */
 .front-pro-plumber .row {
   color: white;
 }
-/* line 164, scss/_custom.scss */
+/* line 167, scss/_custom.scss */
 .front-pro-plumber .row h2, .front-pro-plumber .row h3 {
   color: white;
 }
-/* line 169, scss/_custom.scss */
+/* line 172, scss/_custom.scss */
 .front-pro-plumber a {
   background-color: transparent;
   border: 4px solid #35c379;
@@ -12864,24 +12865,24 @@ h1, h2, h3, h4, h5 {
  * Frontpage Testimonials
  *
  */
-/* line 181, scss/_custom.scss */
+/* line 184, scss/_custom.scss */
 .front-testimonials {
   background-color: #f57f6c;
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
 }
-/* line 188, scss/_custom.scss */
+/* line 191, scss/_custom.scss */
 .front-testimonials img {
   margin: 0 auto;
   border-radius: 50%;
 }
-/* line 193, scss/_custom.scss */
+/* line 196, scss/_custom.scss */
 .front-testimonials h5 {
   padding-bottom: 2rem;
   position: relative;
 }
-/* line 197, scss/_custom.scss */
+/* line 200, scss/_custom.scss */
 .front-testimonials h5:after {
   content: '';
   position: absolute;
@@ -12892,7 +12893,75 @@ h1, h2, h3, h4, h5 {
   background: red;
   display: block;
 }
-/* line 210, scss/_custom.scss */
+/* line 213, scss/_custom.scss */
 .front-testimonials p {
   padding-top: 2rem;
+  font-family: 'Poiret One', cursive;
+  color: #676767;
+}
+
+/**
+ *
+ * Footer Callout
+ *
+ */
+/* line 228, scss/_custom.scss */
+.footer-callout {
+  background-color: #666666;
+  color: #b3b3b3;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+/* line 234, scss/_custom.scss */
+.footer-callout a {
+  background-color: transparent;
+  border: 4px double #35c379;
+}
+
+/**
+ *
+ * Footer
+ *
+ */
+/* line 245, scss/_custom.scss */
+.the-footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background-color: #113f27;
+}
+
+/* line 253, scss/_custom.scss */
+.footer-widget {
+  color: #EEEEEE;
+}
+/* line 256, scss/_custom.scss */
+.footer-widget h3 {
+  font-variant: small-caps;
+  color: #EEEEEE;
+}
+/* line 262, scss/_custom.scss */
+.footer-widget ul li {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  border-bottom: 1px solid #35c379;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+/* line 268, scss/_custom.scss */
+.footer-widget ul li:hover {
+  background-color: #666666;
+}
+
+/* line 276, scss/_custom.scss */
+.copyright {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #EEEEEE;
+  background-color: #1d6b42;
+}
+/* line 281, scss/_custom.scss */
+.copyright p {
+  margin-bottom: -.25rem;
+  font-size: .8rem;
 }

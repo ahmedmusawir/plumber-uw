@@ -1,5 +1,7 @@
 //Google fonts 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+// @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 //Font Awesome
 @import "font-awesome-compass";
 @import "font-awesome";
@@ -31,7 +33,8 @@ h1, h2, h3, h4, h5 {
 
 .top-header {
 
-	background-color: darken( $primary-color, 33%);
+	// background-color: darken( $primary-color, 33%);
+	background-color: $silver;
 
 	.site-contact {
 		padding-top: 1rem;
@@ -153,7 +156,7 @@ h1, h2, h3, h4, h5 {
 	 .cover {
 	 	
 	 	background-color: rgba( darken( $primary-color, 10% ), .8);
-		padding-top: 3rem;
+		padding-top: 4rem;
 		padding-bottom: 2rem;
 	  
 	 }
@@ -209,8 +212,76 @@ h1, h2, h3, h4, h5 {
 	}
 	p {
 		padding-top: 2rem;
+		// font-family: 'Kaushan Script', cursive;
+		font-family: 'Poiret One', cursive;
+		color: darken( grey, 10% );
+		// width: 70%;
 	}
 
+}
+
+/**
+ *
+ * Footer Callout
+ *
+ */
+.footer-callout {
+	background-color: $steel;
+	color: lighten( grey, 20% );
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;
+
+	a {
+		background-color: transparent;
+		border: 4px double $primary-color;
+	}
+}
+
+/**
+ *
+ * Footer
+ *
+ */
+.the-footer {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	// background-color: $oil; 
+	background-color: darken( $primary-color, 33%);
+
+}
+
+.footer-widget {
+	color: $smoke;
+
+	h3 {
+		font-variant: small-caps;
+		color: $smoke;
+	}
+
+	ul {
+		li {
+			@include transition(all 0.6s ease-in-out);
+			border-bottom: 1px solid $primary-color;
+			padding-top: .5rem;
+			padding-bottom: .5rem;
+
+			&:hover {
+				background-color: $steel;
+			}
+		}
+	}
+
+}
+
+.copyright {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: $smoke;
+	background-color: darken( $primary-color, 22%);
+	p {
+		margin-bottom: -.25rem;
+		font-size: .8rem;
+	}
 }
 
 
