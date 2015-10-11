@@ -33,8 +33,9 @@ h1, h2, h3, h4, h5 {
 
 .top-header {
 
-	// background-color: darken( $primary-color, 33%);
-	background-color: $silver;
+	// background-color: darken( $primary-color, 20%);
+	background-color: darken( $silver, 10% );
+	// background-color: lighten( $primary-color, 30% );
 
 	.site-contact {
 		padding-top: 1rem;
@@ -78,6 +79,33 @@ h1, h2, h3, h4, h5 {
 .front-services {
 	text-align: center;
 
+	.front-service-block {
+
+		.front-service-text {
+			min-height: 125px;
+		}
+
+		h4 {
+			font-size: 1.2rem;
+			font-weight: 800;
+			padding-bottom: 1.5rem;
+			color: darken( $primary-color, 20%);
+			position: relative;
+
+			&:after {
+			  content: '';
+		      position:absolute;
+		      bottom: 5;
+		      left: 30%;
+		      right: 30%;
+		      height: 2px;
+		      background:  darken( $primary-color, 20%);;
+		      display:block;
+		      margin-top: 1rem;
+			}
+		}
+	}
+
 	.service-icon {
 		background-color: $primary-color;
 		height: 100%;
@@ -98,10 +126,6 @@ h1, h2, h3, h4, h5 {
 
 			&:hover {
 				color: white;
-				// @include transform(translateY(50px));
-				// @include transform( scale(1.2) );
-				// @include transform-origin(center top);
-				// @include transform-style(preserve-3d);
 			}
 		}
 	}
