@@ -12976,16 +12976,203 @@ h1, h2, h3, h4, h5 {
 .footer-widget ul li:hover {
   background-color: #666666;
 }
+/* line 297, scss/_custom.scss */
+.footer-widget p {
+  padding-top: 1.5rem;
+}
 
-/* line 300, scss/_custom.scss */
+/* line 303, scss/_custom.scss */
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: #EEEEEE;
   background-color: #1d6b42;
 }
-/* line 305, scss/_custom.scss */
+/* line 308, scss/_custom.scss */
 .copyright p {
   margin-bottom: -.25rem;
   font-size: .8rem;
+}
+
+/**
+ *
+ * Sidebar
+ *
+ */
+/* line 321, scss/_custom.scss */
+.sidebar-widget .widget-title {
+  padding-bottom: 1rem;
+}
+/* line 324, scss/_custom.scss */
+.sidebar-widget .widget {
+  margin-bottom: 2rem;
+}
+
+/**
+ *
+ * Pages In General
+ *
+ */
+/* line 336, scss/_custom.scss */
+.page-header {
+  height: 350px;
+}
+/* line 341, scss/_custom.scss */
+.page-header .page-header-text {
+  text-align: center;
+  height: 350px;
+  background-color: rgba(20, 75, 46, 0.8);
+  padding-top: 7.5rem;
+}
+/* line 347, scss/_custom.scss */
+.page-header .page-header-text h1 {
+  font-weight: 700;
+  color: #35c379;
+  position: relative;
+}
+/* line 352, scss/_custom.scss */
+.page-header .page-header-text h1:after {
+  content: '';
+  position: absolute;
+  bottom: 5;
+  left: 40%;
+  right: 40%;
+  height: 2px;
+  background: #2a9b60;
+  display: block;
+  margin-top: 1rem;
+}
+/* line 365, scss/_custom.scss */
+.page-header .page-header-text h4 {
+  color: #30af6d;
+  padding-top: 1.5rem;
+}
+
+/* line 373, scss/_custom.scss */
+.page-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: grey;
+}
+/* line 378, scss/_custom.scss */
+.page-content h3, .page-content h4, .page-content h5 {
+  color: grey;
+  font-weight: 500;
+}
+/* line 382, scss/_custom.scss */
+.page-content p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+/**
+ *
+ * About Us Page
+ *
+ */
+/* line 393, scss/_custom.scss */
+#about-us {
+  background: url(img/about_us.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Blocked Drains Page
+ *
+ */
+/* line 406, scss/_custom.scss */
+#blocked-drain {
+  background: url(img/blocked_drain.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Hot Water Services Page
+ *
+ */
+/* line 419, scss/_custom.scss */
+#hot-water {
+  background: url(img/hotwater_service.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Commercial Page
+ *
+ */
+/* line 432, scss/_custom.scss */
+#commercial {
+  background: url(img/commercial.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Contact Page
+ *
+ */
+/* line 445, scss/_custom.scss */
+#contact-us {
+  background: url(img/contact_us_2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Plumbing Professionals Page
+ *
+ */
+/* line 459, scss/_custom.scss */
+#plumbing-pros {
+  background: url(img/plumbing_professional_2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Plumbing Service Page
+ *
+ */
+/* line 473, scss/_custom.scss */
+#plumbing-service {
+  background: url(img/plumbing_services.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/**
+ *
+ * Areas Served Page
+ *
+ */
+/* line 487, scss/_custom.scss */
+#area-served {
+  background: url(img/area_served.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

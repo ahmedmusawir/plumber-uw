@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Raleway', sans-serif;
-
+	// margin-top: -0.2rem;
 }
 
 /**
@@ -294,6 +294,9 @@ h1, h2, h3, h4, h5 {
 			}
 		}
 	}
+	p {
+		padding-top: 1.5rem;
+	}
 
 }
 
@@ -308,14 +311,186 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
+/**
+ *
+ * Sidebar
+ *
+ */
+.sidebar-widget {
+
+	.widget-title {
+		padding-bottom: 1rem;
+	}
+	.widget {
+		margin-bottom: 2rem;
+		// border: 1px solid red;
+	}
+}
 
 
+/**
+ *
+ * Pages In General
+ *
+ */
+.page-header {
 
+	height: 350px;
+	
+ 
+	.page-header-text {
+		text-align: center;
+		height: 350px;
+	 	background-color: rgba( darken( $primary-color, 30% ), .8);
+	 	padding-top: 7.5rem;
 
+	 	h1 {
+	 		font-weight: 700;
+	 		color: $primary-color;
+	 		position: relative;
 
+	 		&:after {
+			  content: '';
+		      position:absolute;
+		      bottom: 5;
+		      left: 40%;
+		      right: 40%;
+		      height: 2px;
+		      background:  darken( $primary-color, 10%);;
+		      display:block;
+		      margin-top: 1rem;
+			}
 
+	 	}
+	 	h4 {
+	 		color: darken( $primary-color, 5% );
+	 		padding-top: 1.5rem;
+	 	}
 
+	}
+}
 
+.page-content {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: grey;
+
+	h3, h4, h5 {
+		color: grey;
+		font-weight: 500;
+	}
+	p {
+		font-weight: 300;
+		font-size: 1.1rem;
+	}
+}
+
+/**
+ *
+ * About Us Page
+ *
+ */
+#about-us {
+	background: url(img/about_us.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Blocked Drains Page
+ *
+ */
+#blocked-drain {
+	background: url(img/blocked_drain.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Hot Water Services Page
+ *
+ */
+#hot-water {
+	background: url(img/hotwater_service.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Commercial Page
+ *
+ */
+#commercial {
+	background: url(img/commercial.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Contact Page
+ *
+ */
+#contact-us {
+	background: url(img/contact_us_2.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Plumbing Professionals Page
+ *
+ */
+
+#plumbing-pros {
+	background: url(img/plumbing_professional_2.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Plumbing Service Page
+ *
+ */
+
+#plumbing-service {
+	background: url(img/plumbing_services.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/**
+ *
+ * Areas Served Page
+ *
+ */
+
+#area-served {
+	background: url(img/area_served.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
 
 
 

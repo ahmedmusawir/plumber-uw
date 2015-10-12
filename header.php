@@ -41,17 +41,17 @@
 	      <h1><a href="index.php">HOME</a></h1>
 	    </li>
 	     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
 	  </ul>
 
 	  <section class="top-bar-section">
 	    <!-- Right Nav Section -->
 	 
 	    <ul class="right">
-	      <li><a href="#">ABOUT US</a></li>
-	      <li><a href="#">BLOCKED DRAINS</a></li>
-	      <li><a href="#">HOT WATER SERVICE</a></li>
-	      <li><a href="#">COMMERCIAL</a></li>
+	      <li><a href="about-us.php">ABOUT US</a></li>
+	      <li><a href="blocked-drains.php">BLOCKED DRAINS</a></li>
+	      <li><a href="hot-water.php">HOT WATER SERVICE</a></li>
+	      <li><a href="commercial.php">COMMERCIAL</a></li>
 	      <li><a href="contact.php">CONTACT</a></li>
 	    </ul>
 

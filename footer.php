@@ -12,7 +12,7 @@
     <footer class="the-footer">
 
     <div class="row">
-            <div class="footer-widget medium-4 columns">
+        <div class="footer-widget medium-4 columns">
 
             <h3 class="widget-title">Quick Links</h3>
             <ul class="widget no-bullet">
@@ -27,9 +27,11 @@
         <div class="footer-widget medium-4 columns">
 
             <h3 class="widget-title">Contact Information</h3>
-            <p><i class="fa fa-map-marker fa-1x"></i> 611 Military Rd, Largs North SA 5016</p>
-            <p><i class="fa fa-phone fa-1x"></i> 0409 097 095, (08) 8248 6122</p>
-            <p><i class="fa fa-paper-plane fa-1x"></i> office@dciplumbing.com.au</p>
+            <div class="widget no-bullet">
+                <p><i class="fa fa-map-marker fa-1x"></i> 611 Military Rd, Largs North SA 5016</p>
+                <p><i class="fa fa-phone fa-1x"></i> 0409 097 095, (08) 8248 6122</p>
+                <p><i class="fa fa-paper-plane fa-1x"></i> office@dciplumbing.com.au</p>
+            </div>
             
         </div>
         <div class="footer-widget medium-4 columns">

@@ -46,7 +46,7 @@
   <div class="front-service-block medium-4 large-4 columns">
     <p class="service-icon-holder">
       <span class="service-icon">
-        <a href="#" title=""><i class="fa fa-cogs fa-2x"></i></a>
+        <a href="plumbing-service.php" title=""><i class="fa fa-cogs fa-2x"></i></a>
       </span>
     </p>
     <h4>PLUMBING SERVICES</h4>
@@ -54,14 +54,14 @@
     Whether you need new pipes installed, or have blocked drains or a leaking roof, our expert team will provide you with an efficient and affordable solution.
     </p>
     <p>
-      <a href="#" class="button" title=""> Learn More</a>
+      <a href="plumbing-service.php" class="button" title=""> Learn More</a>
     </p>
   </div>
 
   <div class="front-service-block medium-4 large-4 columns">
     <p class="service-icon-holder">
       <span class="service-icon">
-        <a href="#" title=""><i class="fa fa-group fa-2x"></i></a>
+        <a href="plumbing-pros.php" title=""><i class="fa fa-group fa-2x"></i></a>
       </span>
     </p>
     <h4>PLUMBING PROFESSIONALS</h4>
@@ -69,14 +69,14 @@
     At DCI Plumbing & Gas Pty Ltd, we offer a wide range of plumbing services for domestic, commercial  and industrial clients throughout Adelaide...
     </p>
     <p>
-      <a href="#" class="button" title=""> Learn More</a>
+      <a href="plumbing-pros.php" class="button" title=""> Learn More</a>
     </p>
   </div>
 
   <div class="front-service-block medium-4 large-4 columns">
     <p class="service-icon-holder">
       <span class="service-icon">
-        <a href="#" title=""><i class="fa fa-map-o fa-2x"></i></a>
+        <a href="areas-served.php" title=""><i class="fa fa-map-o fa-2x"></i></a>
       </span>
     </p>
     <h4>AREAS SERVICED</h4>
@@ -84,7 +84,7 @@
     At DCI Plumbing & Gas Pty Ltd we specialise in the Western Suburbs of Adelaide  and also service the entire..
     </p>
     <p>
-      <a href="#" class="button" title=""> Learn More</a>
+      <a href="areas-served.php" class="button" title=""> Learn More</a>
     </p>
   </div>
   
@@ -128,8 +128,7 @@
                   navigation_arrows:true;
                   bullets:true;">
     <li>
-      <p><img class="th" src="http://lorempixel.com/100/100/people/9" alt=""></p>
-      
+      <img class="th" src="http://lorempixel.com/100/100/people/9" alt="">
       <h3>Jini Dow</h3>
       <h5>Teacher</h5>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -140,7 +139,7 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       
     </li>
-    <li class="active">
+    <li>
       <img class="th" src="http://lorempixel.com/100/100/people/1" alt="">
       <h3>Jane Dow</h3>
       <h5>Home Maker</h5>

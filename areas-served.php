@@ -1,11 +1,11 @@
 <?php include "header.php" ?>
 
-<header id="commercial" class="page-header">
+<header id="area-served" class="page-header">
   
   <section class="page-header-text">
 
-  	<h1>Commercial Plumbing</h1>
-  	<h4>Adelaide’s choice for expert commercial services ...</h4>
+  	<h1>Areas Serviced</h1>
+  	<h4>We are all over Adelaide ...</h4>
   	
   </section>
 
@@ -14,10 +14,9 @@
 <section class="page-content">
 
 	<div class="row">
-	
 		<article class="small-12 columns">
-
-			<h3>We are the experts in Commercial Plumbing in Adelaide</h3>
+	
+			<h3>Best Plumbing and Maintenance in Adelaide</h3>
 		  	<p>
 			  	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -28,7 +27,7 @@
 		  	</p>
 
 		</article>
-
+	  	
 	</div>
 	
 </section>
