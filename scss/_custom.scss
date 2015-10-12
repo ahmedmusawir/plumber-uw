@@ -14,6 +14,7 @@ html {
 	background-color: white;
 }
 body {
+	display: none;
 	color: black;
 	background-color: white;
 	font-family: 'Raleway', sans-serif;
@@ -34,13 +35,13 @@ h1, h2, h3, h4, h5 {
 .top-header {
 
 	// background-color: darken( $primary-color, 20%);
-	background-color: darken( $silver, 10% );
+	// background-color: darken( $silver, 0% );
 	// background-color: lighten( $primary-color, 30% );
 
 	.site-contact {
 		padding-top: 1rem;
 		p {
-			color: red;
+			color: darken( $primary-color, 5% );
 			margin-bottom: -0.1rem;
 		}
 	}
@@ -207,7 +208,7 @@ h1, h2, h3, h4, h5 {
  */
 .front-testimonials {
 	// background-color: $tuatara;
-	background-color: lighten( $alert-color, 15%);
+	background-color: lighten( $alert-color, 5%);
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	text-align: center;
@@ -228,7 +229,7 @@ h1, h2, h3, h4, h5 {
 	      left: 40%;
 	      right: 40%;
 	      height: 2px;
-	      background:red;
+	      background: black;
 	      display:block;
 	      // margin-bottom: 2rem;
 		}
@@ -238,7 +239,7 @@ h1, h2, h3, h4, h5 {
 		padding-top: 2rem;
 		// font-family: 'Kaushan Script', cursive;
 		font-family: 'Poiret One', cursive;
-		color: darken( grey, 10% );
+		// color: darken( grey, 10% );
 		// width: 70%;
 	}
 
@@ -341,12 +342,12 @@ h1, h2, h3, h4, h5 {
 	.page-header-text {
 		text-align: center;
 		height: 350px;
-	 	background-color: rgba( darken( $primary-color, 30% ), .8);
+	 	background-color: rgba( darken( $primary-color, 20% ), .8);
 	 	padding-top: 7.5rem;
 
 	 	h1 {
 	 		font-weight: 700;
-	 		color: $primary-color;
+	 		color: lighten( $primary-color, 10% );
 	 		position: relative;
 
 	 		&:after {
@@ -356,14 +357,14 @@ h1, h2, h3, h4, h5 {
 		      left: 40%;
 		      right: 40%;
 		      height: 2px;
-		      background:  darken( $primary-color, 10%);;
+		      background:  lighten( $primary-color, 10%);;
 		      display:block;
 		      margin-top: 1rem;
 			}
 
 	 	}
 	 	h4 {
-	 		color: darken( $primary-color, 5% );
+	 		color: lighten( $primary-color, 8% );
 	 		padding-top: 1.5rem;
 	 	}
 
@@ -391,7 +392,7 @@ h1, h2, h3, h4, h5 {
  *
  */
 #about-us {
-	background: url(img/about_us.jpg) no-repeat center center fixed; 
+	background: url(img/about_us.jpg) no-repeat top center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -404,7 +405,7 @@ h1, h2, h3, h4, h5 {
  *
  */
 #blocked-drain {
-	background: url(img/blocked_drain.jpg) no-repeat center center fixed; 
+	background: url(img/blocked_drain.jpg) no-repeat top right fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -443,7 +444,7 @@ h1, h2, h3, h4, h5 {
  *
  */
 #contact-us {
-	background: url(img/contact_us_2.jpg) no-repeat center center fixed; 
+	background: url(img/contact_us.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -457,7 +458,7 @@ h1, h2, h3, h4, h5 {
  */
 
 #plumbing-pros {
-	background: url(img/plumbing_professional_2.jpg) no-repeat center center fixed; 
+	background: url(img/plumbing_professional.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -471,7 +472,7 @@ h1, h2, h3, h4, h5 {
  */
 
 #plumbing-service {
-	background: url(img/plumbing_services.jpg) no-repeat center center fixed; 
+	background: url(img/plumbing_services.jpg) no-repeat top right fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -485,7 +486,7 @@ h1, h2, h3, h4, h5 {
  */
 
 #area-served {
-	background: url(img/area_served.jpg) no-repeat center center fixed; 
+	background: url(img/area_served.jpg) no-repeat top left fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;

@@ -4,21 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Plumber</title>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-				
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-
 <header class="top-header">
 
 <div class="row">
 	<div class="site-title medium-8 columns">
        <a href="<?php //echo esc_url( home_url( '/' ) ); ?>" title="<?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 		    <div class="logo">
-		    <img src="img/logo.png" alt="">
+		    <img src="img/logo.jpg" alt="">
 			<?php
 			    //$siteLogo = get_field('website_logo',1476); // 1476 is post id                               
 			    //$size = 'full'; // (thumbnail, medium, large, full or custom size)
@@ -28,8 +25,12 @@
 		</a>
     </div>
     <div class="site-contact medium-4 columns">
-    	<p><i class="fa fa-phone"></i> 0409 097 095, (08) 8248 6122 </p>
-    	<p><i class="fa fa-paper-plane"></i> office@dciplumbing.com.au </p>
+
+    	<div class="">
+    		<p><i class="fa fa-phone .small-text-center"></i> 0409 097 095, (08) 8248 6122 </p>
+    		<p><i class="fa fa-paper-plane .small-text-center"></i> office@dciplumbing.com.au </p>	
+    	</div>
+
     </div>
 </div>   
 </header>

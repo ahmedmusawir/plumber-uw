@@ -9,41 +9,30 @@
                   slide_number: false;
                   pause_on_hover:true;
                   animation_speed:1000;
+                  swipe: true;
                   navigation_arrows:true;
                   bullets:true;">
     <li>
-      <!-- <h1>Domestic</h1> -->
-      <!-- <h4>For Homeowners with homes of any size ... We do it all. Wheather you need a new hot water system
-      installed or serviced, or have a leak or a blocked drain, our team can help.
-      </h4> -->
-      <!-- <img src="http://lorempixel.com/1920/450/abstract/1"  alt="slide 1" /> -->
+    
       <img src="img/frontpage-top-slider-img-2.jpg"  alt="slide 1" />
-      <!-- <div class="orbit-caption">
-        Caption One.
-      </div> -->
+    
     </li>
     <li class="active">
-      <!-- <h1>Commercial</h1> -->
-      <!-- <img src="http://lorempixel.com/1920/450/abstract/2"  alt="slide 2" /> -->
+  
       <img src="img/frontpage-top-slider-img-1.jpg"  alt="slide 2" />
-      <!-- <div class="orbit-caption">
-        Caption Two.
-      </div> -->
+     
     </li>
     <li>
-      <!-- <h1>Reliable</h1> -->
-      <!-- <img src="http://lorempixel.com/1920/450/abstract/3" alt="slide 3" /> -->
+    
       <img src="img/frontpage-top-slider-img-3.jpg" alt="slide 3" />
-      <!-- <div class="orbit-caption">
-        Caption Three.
-      </div> -->
+      
     </li>
   </ul>
   
 </header><!-- /header -->
 
 <section class="front-services row">
-  <div class="front-service-block medium-4 large-4 columns">
+  <div class="front-service-block medium-4 large-4 columns wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s">
     <p class="service-icon-holder">
       <span class="service-icon">
         <a href="plumbing-service.php" title=""><i class="fa fa-cogs fa-2x"></i></a>
@@ -73,7 +62,7 @@
     </p>
   </div>
 
-  <div class="front-service-block medium-4 large-4 columns">
+  <div class="front-service-block medium-4 large-4 columns wow slideInRight" data-wow-duration="1s" data-wow-delay="0s">
     <p class="service-icon-holder">
       <span class="service-icon">
         <a href="areas-served.php" title=""><i class="fa fa-map-o fa-2x"></i></a>
@@ -91,7 +80,7 @@
 </section>
 
 <section class="front-top-callout">
-  <div class="row">
+  <div class="row wow zoomIn" data-wow-duration="1s" data-wow-delay="2s">
     <h3>WE ARE IN YOUR AREA</h3>
     <h4>CALL NOW & TALK DIRECTLY TO A QUALIFIED PLUMBER OR ...</h4>
     <a href="#" title="" class="button"> SEND YOU ENQUIRY NOW</a>
@@ -101,8 +90,8 @@
 
 
 <section class="front-pro-plumber">
-  <div class="cover">
-    <article class="row">
+  <div class="cover" >
+    <article class="row  wow zoomIn" data-wow-duration="1s" data-wow-delay="0s">
       <h2>PROFESSIONAL PLUMBERS</h2>
       <h3>IN ADELAIDE</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -126,6 +115,7 @@
                   pause_on_hover:true;
                   animation_speed:1000;
                   navigation_arrows:true;
+                  swipe: true;
                   bullets:true;">
     <li>
       <img class="th" src="http://lorempixel.com/100/100/people/9" alt="">
