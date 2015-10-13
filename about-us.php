@@ -1,12 +1,22 @@
 <?php include "header.php" ?>
 
-<header id="about-us" class="page-header">
+<style type="text/css" media="screen">
+	#page-header {
+		background: url(img/about_us.jpg) no-repeat top center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	}
+</style>
+
+<header id="page-header" class="page-header">
   
   <section class="page-header-text">
 
   	<h1>About Us</h1>
   	<h4>Adelaide’s choice for best plumbing services ...</h4>
-  	
+  		
   </section>
 
 </header><!-- /header -->

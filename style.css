@@ -12722,14 +12722,27 @@ h1, h2, h3, h4, h5 {
  * Site Header
  *
  */
-/* line 41, scss/_custom.scss */
+/* line 37, scss/_custom.scss */
 .top-header .site-contact {
   padding-top: 1rem;
 }
-/* line 43, scss/_custom.scss */
+/* line 39, scss/_custom.scss */
 .top-header .site-contact p {
   color: #018d9c;
   margin-bottom: -0.1rem;
+}
+@media (min-width: 640px) and (max-width: 787px) {
+  /* line 39, scss/_custom.scss */
+  .top-header .site-contact p {
+    font-size: .7rem;
+    font-weight: 700;
+  }
+}
+@media (max-width: 639px) {
+  /* line 39, scss/_custom.scss */
+  .top-header .site-contact p {
+    text-align: center;
+  }
 }
 
 /**
@@ -12737,16 +12750,16 @@ h1, h2, h3, h4, h5 {
  * Frontpage Header
  *
  */
-/* line 57, scss/_custom.scss */
+/* line 63, scss/_custom.scss */
 .front-page-header {
   text-align: center;
   position: relative;
 }
-/* line 62, scss/_custom.scss */
+/* line 68, scss/_custom.scss */
 .front-page-header .the-orbit {
   background-color: rgba(1, 118, 130, 0.8);
 }
-/* line 64, scss/_custom.scss */
+/* line 70, scss/_custom.scss */
 .front-page-header .the-orbit h1, .front-page-header .the-orbit h4 {
   position: fixed;
   color: yellow;
@@ -12760,15 +12773,15 @@ h1, h2, h3, h4, h5 {
  * Frontpage Services
  *
  */
-/* line 80, scss/_custom.scss */
+/* line 86, scss/_custom.scss */
 .front-services {
   text-align: center;
 }
-/* line 85, scss/_custom.scss */
+/* line 91, scss/_custom.scss */
 .front-services .front-service-block .front-service-text {
   min-height: 125px;
 }
-/* line 89, scss/_custom.scss */
+/* line 95, scss/_custom.scss */
 .front-services .front-service-block h4 {
   font-size: 1.2rem;
   font-weight: 800;
@@ -12776,7 +12789,7 @@ h1, h2, h3, h4, h5 {
   color: #004850;
   position: relative;
 }
-/* line 96, scss/_custom.scss */
+/* line 102, scss/_custom.scss */
 .front-services .front-service-block h4:after {
   content: '';
   position: absolute;
@@ -12788,7 +12801,7 @@ h1, h2, h3, h4, h5 {
   display: block;
   margin-top: 1rem;
 }
-/* line 110, scss/_custom.scss */
+/* line 116, scss/_custom.scss */
 .front-services .service-icon {
   background-color: #01a4b5;
   height: 100%;
@@ -12797,19 +12810,19 @@ h1, h2, h3, h4, h5 {
   padding-top: 2.7rem;
   border-radius: 50%;
 }
-/* line 118, scss/_custom.scss */
+/* line 124, scss/_custom.scss */
 .front-services .service-icon i.fa {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-/* line 123, scss/_custom.scss */
+/* line 129, scss/_custom.scss */
 .front-services .service-icon a {
   color: black;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 128, scss/_custom.scss */
+/* line 134, scss/_custom.scss */
 .front-services .service-icon a:hover {
   color: white;
 }
@@ -12819,26 +12832,26 @@ h1, h2, h3, h4, h5 {
  * Frontpage Top Callout
  *
  */
-/* line 140, scss/_custom.scss */
+/* line 146, scss/_custom.scss */
 .front-top-callout {
   background-color: #003136;
   text-align: center;
   padding-top: 3.5rem;
   padding-bottom: 2rem;
 }
-/* line 146, scss/_custom.scss */
+/* line 152, scss/_custom.scss */
 .front-top-callout h3, .front-top-callout h4 {
   color: #05e6fe;
 }
-/* line 150, scss/_custom.scss */
+/* line 156, scss/_custom.scss */
 .front-top-callout h3 {
   font-size: 2rem;
 }
-/* line 153, scss/_custom.scss */
+/* line 159, scss/_custom.scss */
 .front-top-callout h4 {
   font-size: 1rem;
 }
-/* line 157, scss/_custom.scss */
+/* line 163, scss/_custom.scss */
 .front-top-callout a {
   background-color: transparent;
   border: 2px solid #01a4b5;
@@ -12850,7 +12863,7 @@ h1, h2, h3, h4, h5 {
  * Frontpage Professional Plumber
  *
  */
-/* line 169, scss/_custom.scss */
+/* line 175, scss/_custom.scss */
 .front-pro-plumber {
   text-align: center;
   position: relative;
@@ -12860,21 +12873,21 @@ h1, h2, h3, h4, h5 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 181, scss/_custom.scss */
+/* line 187, scss/_custom.scss */
 .front-pro-plumber .cover {
   background-color: rgba(1, 118, 130, 0.8);
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
-/* line 189, scss/_custom.scss */
+/* line 195, scss/_custom.scss */
 .front-pro-plumber .row {
   color: white;
 }
-/* line 192, scss/_custom.scss */
+/* line 198, scss/_custom.scss */
 .front-pro-plumber .row h2, .front-pro-plumber .row h3 {
   color: white;
 }
-/* line 197, scss/_custom.scss */
+/* line 203, scss/_custom.scss */
 .front-pro-plumber a {
   background-color: transparent;
   border: 4px solid #01a4b5;
@@ -12886,24 +12899,24 @@ h1, h2, h3, h4, h5 {
  * Frontpage Testimonials
  *
  */
-/* line 209, scss/_custom.scss */
+/* line 215, scss/_custom.scss */
 .front-testimonials {
   background-color: #f2563c;
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
 }
-/* line 216, scss/_custom.scss */
+/* line 222, scss/_custom.scss */
 .front-testimonials img {
   margin: 0 auto;
   border-radius: 50%;
 }
-/* line 221, scss/_custom.scss */
+/* line 227, scss/_custom.scss */
 .front-testimonials h5 {
   padding-bottom: 2rem;
   position: relative;
 }
-/* line 225, scss/_custom.scss */
+/* line 231, scss/_custom.scss */
 .front-testimonials h5:after {
   content: '';
   position: absolute;
@@ -12914,7 +12927,7 @@ h1, h2, h3, h4, h5 {
   background: black;
   display: block;
 }
-/* line 238, scss/_custom.scss */
+/* line 244, scss/_custom.scss */
 .front-testimonials p {
   padding-top: 2rem;
   font-family: 'Poiret One', cursive;
@@ -12925,14 +12938,14 @@ h1, h2, h3, h4, h5 {
  * Footer Callout
  *
  */
-/* line 253, scss/_custom.scss */
+/* line 259, scss/_custom.scss */
 .footer-callout {
   background-color: #666666;
   color: #b3b3b3;
   padding-top: 3rem;
   padding-bottom: 1.5rem;
 }
-/* line 259, scss/_custom.scss */
+/* line 265, scss/_custom.scss */
 .footer-callout a {
   background-color: transparent;
   border: 4px double #01a4b5;
@@ -12943,23 +12956,23 @@ h1, h2, h3, h4, h5 {
  * Footer
  *
  */
-/* line 270, scss/_custom.scss */
+/* line 276, scss/_custom.scss */
 .the-footer {
   padding-top: 4rem;
   padding-bottom: 2rem;
   background-color: #000c0e;
 }
 
-/* line 278, scss/_custom.scss */
+/* line 284, scss/_custom.scss */
 .footer-widget {
   color: #EEEEEE;
 }
-/* line 281, scss/_custom.scss */
+/* line 287, scss/_custom.scss */
 .footer-widget h3 {
   font-variant: small-caps;
   color: #EEEEEE;
 }
-/* line 287, scss/_custom.scss */
+/* line 293, scss/_custom.scss */
 .footer-widget ul li {
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
@@ -12968,23 +12981,23 @@ h1, h2, h3, h4, h5 {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
-/* line 293, scss/_custom.scss */
+/* line 299, scss/_custom.scss */
 .footer-widget ul li:hover {
   background-color: #666666;
 }
-/* line 298, scss/_custom.scss */
+/* line 304, scss/_custom.scss */
 .footer-widget p {
   padding-top: 1.5rem;
 }
 
-/* line 304, scss/_custom.scss */
+/* line 310, scss/_custom.scss */
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: #EEEEEE;
   background-color: #003f45;
 }
-/* line 309, scss/_custom.scss */
+/* line 315, scss/_custom.scss */
 .copyright p {
   margin-bottom: -.25rem;
   font-size: .8rem;
@@ -12995,11 +13008,11 @@ h1, h2, h3, h4, h5 {
  * Sidebar
  *
  */
-/* line 322, scss/_custom.scss */
+/* line 328, scss/_custom.scss */
 .sidebar-widget .widget-title {
   padding-bottom: 1rem;
 }
-/* line 325, scss/_custom.scss */
+/* line 331, scss/_custom.scss */
 .sidebar-widget .widget {
   margin-bottom: 2rem;
 }
@@ -13009,24 +13022,24 @@ h1, h2, h3, h4, h5 {
  * Pages In General
  *
  */
-/* line 337, scss/_custom.scss */
+/* line 343, scss/_custom.scss */
 .page-header {
   height: 350px;
 }
-/* line 342, scss/_custom.scss */
+/* line 348, scss/_custom.scss */
 .page-header .page-header-text {
   text-align: center;
   height: 350px;
   background-color: rgba(0, 72, 80, 0.8);
   padding-top: 7.5rem;
 }
-/* line 348, scss/_custom.scss */
+/* line 354, scss/_custom.scss */
 .page-header .page-header-text h1 {
   font-weight: 700;
   color: #01d2e8;
   position: relative;
 }
-/* line 353, scss/_custom.scss */
+/* line 359, scss/_custom.scss */
 .page-header .page-header-text h1:after {
   content: '';
   position: absolute;
@@ -13038,24 +13051,24 @@ h1, h2, h3, h4, h5 {
   display: block;
   margin-top: 1rem;
 }
-/* line 366, scss/_custom.scss */
+/* line 372, scss/_custom.scss */
 .page-header .page-header-text h4 {
   color: #01c9de;
   padding-top: 1.5rem;
 }
 
-/* line 374, scss/_custom.scss */
+/* line 380, scss/_custom.scss */
 .page-content {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: grey;
 }
-/* line 379, scss/_custom.scss */
+/* line 385, scss/_custom.scss */
 .page-content h3, .page-content h4, .page-content h5 {
   color: grey;
   font-weight: 500;
 }
-/* line 383, scss/_custom.scss */
+/* line 389, scss/_custom.scss */
 .page-content p {
   font-weight: 300;
   font-size: 1.1rem;
@@ -13066,21 +13079,12 @@ h1, h2, h3, h4, h5 {
  * About Us Page
  *
  */
-/* line 394, scss/_custom.scss */
-#about-us {
-  background: url(img/about_us.jpg) no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 /**
  *
  * Blocked Drains Page
  *
  */
-/* line 407, scss/_custom.scss */
+/* line 413, scss/_custom.scss */
 #blocked-drain {
   background: url(img/blocked_drain.jpg) no-repeat top right fixed;
   -webkit-background-size: cover;
@@ -13094,7 +13098,7 @@ h1, h2, h3, h4, h5 {
  * Hot Water Services Page
  *
  */
-/* line 420, scss/_custom.scss */
+/* line 426, scss/_custom.scss */
 #hot-water {
   background: url(img/hotwater_service.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13108,7 +13112,7 @@ h1, h2, h3, h4, h5 {
  * Commercial Page
  *
  */
-/* line 433, scss/_custom.scss */
+/* line 439, scss/_custom.scss */
 #commercial {
   background: url(img/commercial.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13122,21 +13126,12 @@ h1, h2, h3, h4, h5 {
  * Contact Page
  *
  */
-/* line 446, scss/_custom.scss */
-#contact-us {
-  background: url(img/contact_us.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 /**
  *
  * Plumbing Professionals Page
  *
  */
-/* line 460, scss/_custom.scss */
+/* line 466, scss/_custom.scss */
 #plumbing-pros {
   background: url(img/plumbing_professional.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13150,7 +13145,7 @@ h1, h2, h3, h4, h5 {
  * Plumbing Service Page
  *
  */
-/* line 474, scss/_custom.scss */
+/* line 480, scss/_custom.scss */
 #plumbing-service {
   background: url(img/plumbing_services.jpg) no-repeat top right fixed;
   -webkit-background-size: cover;
@@ -13164,7 +13159,7 @@ h1, h2, h3, h4, h5 {
  * Areas Served Page
  *
  */
-/* line 488, scss/_custom.scss */
+/* line 494, scss/_custom.scss */
 #area-served {
   background: url(img/area_served.jpg) no-repeat top left fixed;
   -webkit-background-size: cover;

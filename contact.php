@@ -1,5 +1,15 @@
 <?php include "header.php" ?>
 
+<style type="text/css" media="screen">
+    #contact-us {
+    background: url(img/contact_us.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+</style>
+
 <header id="contact-us" class="page-header">
   
   <section class="page-header-text">

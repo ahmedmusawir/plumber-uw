@@ -34,16 +34,22 @@ h1, h2, h3, h4, h5 {
 
 .top-header {
 
-	// background-color: darken( $primary-color, 20%);
-	// background-color: darken( $silver, 0% );
-	// background-color: lighten( $primary-color, 30% );
-
 	.site-contact {
 		padding-top: 1rem;
 		p {
 			color: darken( $primary-color, 5% );
 			margin-bottom: -0.1rem;
+			@media  (min-width: 640px) and (max-width: 787px) {
+				font-size: .7rem;
+				font-weight: 700;
+				
+			}
+			@media  (max-width: 639px) {
+				text-align: center;
+
+			}
 		}
+
 	}
 
 }
@@ -391,13 +397,13 @@ h1, h2, h3, h4, h5 {
  * About Us Page
  *
  */
-#about-us {
-	background: url(img/about_us.jpg) no-repeat top center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-}
+// #about-us {
+// 	background: url(img/about_us.jpg) no-repeat top center fixed; 
+// 	  -webkit-background-size: cover;
+// 	  -moz-background-size: cover;
+// 	  -o-background-size: cover;
+// 	  background-size: cover;
+// }
 
 /**
  *
@@ -443,13 +449,13 @@ h1, h2, h3, h4, h5 {
  * Contact Page
  *
  */
-#contact-us {
-	background: url(img/contact_us.jpg) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-}
+// #contact-us {
+// 	background: url(img/contact_us.jpg) no-repeat center center fixed; 
+// 	  -webkit-background-size: cover;
+// 	  -moz-background-size: cover;
+// 	  -o-background-size: cover;
+// 	  background-size: cover;
+// }
 
 /**
  *

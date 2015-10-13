@@ -83,7 +83,8 @@
   <div class="row wow zoomIn" data-wow-duration="1s" data-wow-delay="2s">
     <h3>WE ARE IN YOUR AREA</h3>
     <h4>CALL NOW & TALK DIRECTLY TO A QUALIFIED PLUMBER OR ...</h4>
-    <a href="#" title="" class="button"> SEND YOU ENQUIRY NOW</a>
+    <p><a href="#" class="button" data-reveal-id="myModal">SEND YOU ENQUIRY NOW</a></p>
+
   </div>
 </section>
 
@@ -102,6 +103,7 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       <p><a href="#" class="button" title="">Learn More</a></p>
+
     </article>
   </div>
 </section>
@@ -156,7 +158,43 @@
 
 </section>
 
+<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+ <h3>Enquiry Form</h3>
+        <p>
+          <form data-abide>
 
+                  <div>
+                    <label>Name:</label>
+                      <input type="text" name="" value="" placeholder="Name" required>
+                    
+                    <small class="error animated tada">Oops This is Boo Boo</small>
+                  </div>
+                  <div>
+                    <label>Subject:</label>
+                      <input type="text" name="" value="" placeholder="Subject" required>
+                    
+                    <small class="error animated tada">Oops This is Boo Boo</small>
+                  </div>
+                  <div>
+                    <label>Email:</label>
+                      <input type="email" name="" value="" placeholder="Email" required>
+                    
+                    <small class="error animated tada">Oops This is Boo Boo</small>
+                  </div>
+                  <div> 
+                    <label>Your Message:</label>
+                      <textarea name="" rows="20" placeholder="Message" required></textarea>
+                    
+                    <small class="error animated tada">Oops This is Boo Boo</small>
+                  </div>
+                  <div>
+                    <input class="button round" type="submit" name="" value="Send Email">
+                  </div>
+
+              </form>
+        </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
 
  
  <?php include "footer.php" ?>
